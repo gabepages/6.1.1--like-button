@@ -1,0 +1,33 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+.like-button{
+  height:100px;
+  width: 300px;
+  text-align: center;
+  margin: 200px 600px;
+  background-color: rgba(5, 5, 5, 0.8);
+  color: white;
+  border:1px solid lightgray;
+  font-size: 25px;
+  font-family: Helvetica;
+  font-weight: 100;
+
+}
